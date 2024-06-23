@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slide show Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/mountain1.jpg" class="imgg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/mountain2.jpg"  class="imgg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/mountain3.jpg" class="imgg" style="width:80%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/mountain4.jpg" class="imgg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/mountain5.jpg" class="imgg" style="width:80%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/mountain6.jpg" class="imgg" style="width:80%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+
+</div>
+
+<div class="row">
+  <div class="column">
+    <img class="demo cursor" src="images/mountain1.jpg" width="100%" onclick="currentSlide(1)" alt="Mountain1">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="images/mountain2.jpg" width="100%" onclick="currentSlide(2)" alt="Mountains2">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="images/mountain3.jpg" width="100%" onclick="currentSlide(3)" alt="Mountains3">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="images/mountain4.jpg" width="100%" onclick="currentSlide(4)" alt="Mountains4">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="images/mountain5.jpg" width="100%" onclick="currentSlide(5)" alt="Mountain5">
+  </div>    
+  <div class="column">
+    <img class="demo cursor" src="images/mountain6.jpg" width="100%" onclick="currentSlide(6)" alt="Mountain6">
+  </div>
+</div>
+
+<script src="js/index.js"></script>    
+</body>
+</html>

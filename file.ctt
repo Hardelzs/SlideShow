@@ -1,0 +1,33 @@
+/* .row{
+  position: absolute;
+  display: grid;
+  left: 81%;
+  width: 20px;
+  top: 1px;
+}
+
+.row:after {
+  content: "";
+  display: grid;
+  clear: both;
+}
+
+/* Six columns side by side */
+/* .column {
+  float: left;
+  /* width: 20%; */
+  height: 320px;
+} */
+
+/* Add a transparency effect for thumnbail images */
+/* .demo {
+  opacity: 0.6;
+} */
+
+/* .active,
+.demo:hover {
+  opacity: 1;
+} */
+.demo{
+  /* object-fit: cover; */
+}
